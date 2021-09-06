@@ -20,6 +20,7 @@ export default function Login({ setCurrentRecipient, setCurrentUser, setLoggedIn
 
     return (
         <form onSubmit={handleSubmit}>
+            username:
             <input
                 value={user}
                 onChange={(e) => {
@@ -27,6 +28,7 @@ export default function Login({ setCurrentRecipient, setCurrentUser, setLoggedIn
                 }}
             />
             <br />
+            password:
             <input
                 value={password}
                 onChange={(e) => {
